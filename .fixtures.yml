@@ -1,0 +1,10 @@
+fixtures:
+  repositories:
+    stdlib:
+      repo: git://github.com/puppetlabs/puppetlabs-stdlib.git
+      ref: 4.3.2
+    tuned:
+      repo: git://github.com/thias/puppet-tuned.git
+      ref: 1.0.0
+  symlinks:
+    site_tuned: "#{source_dir}"
